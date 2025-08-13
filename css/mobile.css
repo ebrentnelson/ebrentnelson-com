@@ -1,0 +1,56 @@
+html, body, #bizcard {
+    height: 100%;
+    width: 100%;
+}
+
+#bizcard {
+    position: relative;
+}
+
+#info {
+    position: absolute;
+    color: #FFF;
+    text-align: center;
+}
+
+#info span {
+    font-size: 175%;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+/**
+ *  Mobile Styles
+ **/
+@media only screen and (orientation:portrait){
+    #bizcard {
+        background: url('images/ebn-logo-big.png') #000 center 50px no-repeat;
+        background-size: 200px auto;
+    }
+    
+    #info {
+        bottom: 50px;
+        width: 100%;
+    }
+}
+@media only screen and (orientation:landscape){
+    #bizcard {
+        background: url('images/ebn-logo-big.png') #000 50px center no-repeat;
+        background-size: 200px auto;
+    }
+    
+    #info {
+        right: 50px;
+        height: 100%;
+        display: table;
+    }
+    
+    #info a {
+        display: table-cell; 
+        vertical-align: middle; 
+        text-align: center; 
+    }    
+}
