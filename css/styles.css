@@ -428,15 +428,3 @@ main .grid {
     padding: 0 10px;
   }
 }
-
-/* Ensure hover states work well on mobile */
-@media (hover: none) {
-  main .grid .tile a {
-    opacity: 1;
-  }
-
-  main .grid .tile:hover,
-  main .grid .tile:focus {
-    animation: none;
-  }
-}
