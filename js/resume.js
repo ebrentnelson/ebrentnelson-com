@@ -39,7 +39,7 @@ class ResumeApp {
       });
 
       // Load the markdown file
-      const response = await fetch('assets/ebn-resume.md');
+      const response = await fetch('https://raw.githubusercontent.com/ebrentnelson/ebrentnelson-com/refs/heads/master/assets/ebn-resume.md');
       if (!response.ok) {
         throw new Error(`Failed to load resume: ${response.status}`);
       }
