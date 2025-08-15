@@ -1,1 +1,43 @@
-<!-- dummy -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="E Brent Nelson - Resume">
+  <link rel="icon" href="css/images/favicon.png" sizes="32x32">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Archivo+Black:wght@400&family=Source+Sans+Pro:wght@300;400;600;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="css/resume-styles.css">
+  <title>Resume :: E Brent Nelson</title>
+</head>
+
+<body>
+  <div id="resume-container">
+    <header class="resume-header">
+      <a id="logo" href="/" aria-label="Home"></a>
+      <div class="print-hide">
+        <button id="print-btn" class="print-button">Print Resume</button>
+      </div>
+    </header>
+
+    <main id="resume-content">
+      <div class="loading">Loading resume...</div>
+    </main>
+
+    <footer class="resume-footer print-hide">
+      <div>
+        Generated from <a href="ebn-resume.md">ebn-resume.md</a> •
+        Copyright &copy; <span class="year"></span> E Brent Nelson
+      </div>
+    </footer>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/9.1.2/marked.min.js"></script>
+  <script src="js/resume.js"></script>
+</body>
+
+</html>
