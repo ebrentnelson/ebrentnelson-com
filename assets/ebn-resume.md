@@ -9,6 +9,8 @@ output: pdf_document
 ## Professional Summary
 Principal Software Engineer specializing in enterprise architecture and team leadership. Technical expert in functional programming and web development, with experience across healthcare, recruiting, and gaming industries. Currently drives healthcare technology initiatives while teaching as adjunct faculty. Proven success in establishing technical standards and mentoring development teams.
 
+**Core Strengths**: Belief • Connectedness • Restorative • Positivity • Achiever
+
 
 ## Education
 
