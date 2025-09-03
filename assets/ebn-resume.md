@@ -14,6 +14,9 @@ Principal Software Engineer specializing in enterprise architecture and team lea
 
 ## Education
 
+### Idaho State University
+Master of Arts - Athletic Administration (In Progress)  
+
 ### Brigham Young University - Idaho
 Bachelor of Science - Applied Technology, 2022  
 *Summa Cum Laude*  
